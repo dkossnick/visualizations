@@ -45,4 +45,5 @@ const definition = {
     });
 
     node.on("ontouchstart" in document ? "touchmove" : "mousemove", move);
-};
+  };
+}
